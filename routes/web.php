@@ -24,12 +24,14 @@ Route::get('setlocale/{locale}',function($lang){
 
 Route::group(['middleware'=>'language'],function ()
 {
-    Route::get('/', function () {
-        return view('welcome');
-    });
-
-
-    Route::group(['prefix' => 'admin'], function () {
+Route::get('/', [MainController::class, 'index']);
+Route::get('/news/{id}', [NewsController::class, 'view']);
+Route::get('/blog', [NewsController::class, 'index']);
+Route::get('/news/category/{id}', [NewsController::class, 'category']);
+Route::get('/company/{id}', [CompanyController::class, 'view']);
+Route::get('/contact', [PagesController::class, 'contact']);
+Route::get('/about', [PagesController::class, 'about']);
+Route::group(['prefix' => 'admin'], function () {
         Voyager::routes();
     });
 });
