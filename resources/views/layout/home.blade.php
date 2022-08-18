@@ -19,9 +19,11 @@
                 data-navigation-anchor=".vlt-homepage-12-anchor">
                 <div class="vlt-project-showcase__footer">
                     <ul class="vlt-project-showcase__navigation">
-                        <li>01. Ocean Ball House</li>
-                        <li>02. Catch Seafood Restaurant</li>
-                        <li>03. Stylish & Elegant Apartment</li>
+                        @if(isset($work))
+                    @foreach($work as $data)
+                        <li><br>{{ $data->getTranslatedAttribute('name') }}</li>
+                        @endforeach
+                        @endif
                     </ul>
 
                     <div
@@ -31,31 +33,31 @@
                         <div class="vlt-swiper-button-next">Next
                         </div>
                     </div>
-                    <div class="vlt-project-showcase__socials has-white-color"><a
-                            class="vlt-social-icon vlt-social-icon--style-1" href="#">Fb.</a><a
-                            class="vlt-social-icon vlt-social-icon--style-1" href="#">Tw.</a><a
-                            class="vlt-social-icon vlt-social-icon--style-1" href="#">In.</a><a
-                            class="vlt-social-icon vlt-social-icon--style-1" href="#">Ln.</a></div>
+                    <div class="vlt-project-showcase__socials has-white-color">
+                        <a class="vlt-social-icon vlt-social-icon--style-1" href="#">Fb.</a>
+                        <a class="vlt-social-icon vlt-social-icon--style-1" href="#">Tw.</a>
+                        </div>
                 </div>
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
+                        @if(isset($work))
+                    @foreach($work as $data)
                         <div class="swiper-slide">
                             <div class="vlt-project-showcase__item">
                                 <div class="vlt-project-showcase__image"
-                                    style="background-image: url(assets/img/homepage-12-slide-1.png);"></div>
+                                    style="background-image: url({{Voyager::image($data->fimage)}});"></div>
                                 <div class="d-flex flex-grow-1 flex-shrink-1 align-items-center">
                                     <div class="vlt-project-showcase__content">
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col-lg-7"><span
-                                                        class="vlt-project-showcase__subtitle">Modular & premium</span>
-                                                    <h1 class="vlt-project-showcase__title">Ocean Ball <br>House</h1>
+                                                        class="vlt-project-showcase__subtitle">{{ $data->type }}</span>
+                                                    <h1 class="vlt-project-showcase__title">{{ $data->getTranslatedAttribute('name') }}</h1>
                                                 </div>
                                             </div>
                                             <div class="vlt-project-showcase__info">
-                                                <p class="vlt-project-showcase__text">Branding and digital are forte.
-                                                    Given the state of the world, think it’s time that we start.</p>
-                                                <a class="vlt-btn vlt-btn--primary vlt-btn--md" href="#"
+                                                <p  class="vlt-project-showcase__text">{{ $data->getTranslatedAttribute('description') }}.</p>
+                                                <a class="vlt-btn vlt-btn--primary vlt-btn--md" href="/work/{{ $data->id }}"
                                                     target="_self">Explore project</a>
                                             </div>
                                         </div>
@@ -63,56 +65,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide">
-                            <div class="vlt-project-showcase__item">
-                                <div class="vlt-project-showcase__image"
-                                    style="background-image: url(assets/img/homepage-12-slide-2.png);"></div>
-                                <div class="d-flex flex-grow-1 flex-shrink-1 align-items-center">
-                                    <div class="vlt-project-showcase__content">
-                                        <div class="container">
-                                            <div class="row">
-                                                <div class="col-lg-7"><span
-                                                        class="vlt-project-showcase__subtitle">Modular & premium</span>
-                                                    <h1 class="vlt-project-showcase__title">Catch Seafood Restaurant
-                                                    </h1>
-                                                </div>
-                                            </div>
-                                            <div class="vlt-project-showcase__info">
-                                                <p class="vlt-project-showcase__text">Branding and digital are forte.
-                                                    Given the state of the world, think it’s time that we start.</p>
-                                                <a class="vlt-btn vlt-btn--primary vlt-btn--md" href="#"
-                                                    target="_self">Explore project</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="vlt-project-showcase__item">
-                                <div class="vlt-project-showcase__image"
-                                    style="background-image: url(assets/img/homepage-12-slide-3.png);"></div>
-                                <div class="d-flex flex-grow-1 flex-shrink-1 align-items-center">
-                                    <div class="vlt-project-showcase__content">
-                                        <div class="container">
-                                            <div class="row">
-                                                <div class="col-lg-7"><span
-                                                        class="vlt-project-showcase__subtitle">Modular & premium</span>
-                                                    <h1 class="vlt-project-showcase__title">Stylish & Elegant Apartment
-                                                    </h1>
-                                                </div>
-                                            </div>
-                                            <div class="vlt-project-showcase__info">
-                                                <p class="vlt-project-showcase__text">Branding and digital are forte.
-                                                    Given the state of the world, think it’s time that we start.</p>
-                                                <a class="vlt-btn vlt-btn--primary vlt-btn--md" href="#"
-                                                    target="_self">Explore project</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        @endforeach
+                        @endif
                     </div>
                 </div>
             </div>
@@ -483,14 +437,7 @@
                                                     <div class="vlt-team-member__avatar"><img
                                                             src="assets/img/team-member-01.png" alt=""
                                                             loading="lazy">
-                                                        <div class="vlt-team-member__socials"><a
-                                                                class="vlt-social-icon vlt-social-icon--style-4"
-                                                                href="#"><i class="socicon-facebook"></i></a><a
-                                                                class="vlt-social-icon vlt-social-icon--style-4"
-                                                                href="#"><i class="socicon-twitter"></i></a><a
-                                                                class="vlt-social-icon vlt-social-icon--style-4"
-                                                                href="#"><i class="socicon-linkedin"></i></a>
-                                                        </div>
+
                                                     </div>
                                                     <div class="vlt-team-member__content">
                                                         <h5 class="vlt-team-member__name">Jayson Scott
@@ -506,14 +453,7 @@
                                                     <div class="vlt-team-member__avatar"><img
                                                             src="assets/img/team-member-02.png" alt=""
                                                             loading="lazy">
-                                                        <div class="vlt-team-member__socials"><a
-                                                                class="vlt-social-icon vlt-social-icon--style-4"
-                                                                href="#"><i class="socicon-facebook"></i></a><a
-                                                                class="vlt-social-icon vlt-social-icon--style-4"
-                                                                href="#"><i class="socicon-twitter"></i></a><a
-                                                                class="vlt-social-icon vlt-social-icon--style-4"
-                                                                href="#"><i class="socicon-linkedin"></i></a>
-                                                        </div>
+
                                                     </div>
                                                     <div class="vlt-team-member__content">
                                                         <h5 class="vlt-team-member__name">Amanda Cole
@@ -529,14 +469,7 @@
                                                     <div class="vlt-team-member__avatar"><img
                                                             src="assets/img/team-member-03.png" alt=""
                                                             loading="lazy">
-                                                        <div class="vlt-team-member__socials"><a
-                                                                class="vlt-social-icon vlt-social-icon--style-4"
-                                                                href="#"><i class="socicon-facebook"></i></a><a
-                                                                class="vlt-social-icon vlt-social-icon--style-4"
-                                                                href="#"><i class="socicon-twitter"></i></a><a
-                                                                class="vlt-social-icon vlt-social-icon--style-4"
-                                                                href="#"><i class="socicon-linkedin"></i></a>
-                                                        </div>
+
                                                     </div>
                                                     <div class="vlt-team-member__content">
                                                         <h5 class="vlt-team-member__name">Andrew Holmes
@@ -552,14 +485,7 @@
                                                     <div class="vlt-team-member__avatar"><img
                                                             src="assets/img/team-member-04.png" alt=""
                                                             loading="lazy">
-                                                        <div class="vlt-team-member__socials"><a
-                                                                class="vlt-social-icon vlt-social-icon--style-4"
-                                                                href="#"><i class="socicon-facebook"></i></a><a
-                                                                class="vlt-social-icon vlt-social-icon--style-4"
-                                                                href="#"><i class="socicon-twitter"></i></a><a
-                                                                class="vlt-social-icon vlt-social-icon--style-4"
-                                                                href="#"><i class="socicon-linkedin"></i></a>
-                                                        </div>
+
                                                     </div>
                                                     <div class="vlt-team-member__content">
                                                         <h5 class="vlt-team-member__name">Margaret Watson

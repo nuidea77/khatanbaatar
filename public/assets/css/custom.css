@@ -1,0 +1,12 @@
+.vlt-project-showcase__info p{
+    display: -webkit-box;
+    -webkit-line-clamp:4;
+    -webkit-box-orient:vertical;
+    overflow:hidden
+}
+.vlt-project-showcase__navigation li{
+    display: -webkit-box;
+    -webkit-line-clamp:2;
+    -webkit-box-orient:vertical;
+    overflow:hidden
+}

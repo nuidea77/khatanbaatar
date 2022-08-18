@@ -1,11 +1,13 @@
 <?php
 
 namespace App;
-
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use TCG\Voyager\Traits\Translatable;
 
 
-class Team extends Model
+class Work extends Model
 {
-    
+    use Translatable;
+	protected $translatable = ['name', 'position'];
 }
