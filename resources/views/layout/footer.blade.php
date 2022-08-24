@@ -4,7 +4,7 @@
             <div class="col-lg-3">
 
                 <div class="vlt-widget vlt-widget--html vlt-widget--white"><a href="index.html"><img
-                            src="assets/img/root/logo-white.png" alt="" style="height: 30px;" loading="lazy"></a>
+                            src="/storage/{{ setting('site.site-logo-white') }}" alt="" style="height: 75px;" loading="lazy"></a>
                 </div>
             </div>
             <div class="col-lg-2 col-sm-6">

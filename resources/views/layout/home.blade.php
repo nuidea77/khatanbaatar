@@ -80,7 +80,7 @@
                     <div class="col-md-11 offset-md-1">
 
                         <div class="vlt-animated-block" data-aos="fade" data-aos-delay="0"><span
-                                class="vlt-display-1 has-primary-color">About us</span>
+                                class="vlt-display-1">Бидний тухай</span>
                         </div>
                         <div class="vlt-gap-30"></div>
                     </div>
@@ -89,7 +89,7 @@
                         <div class="vlt-animated-block" data-aos="fade" data-aos-delay="0">
 
                             <div class="vlt-section-title vlt-section-title--style-1">
-                                <h2 class="vlt-section-title__title">Strategy-led <br>design in every <br>detail</h2>
+                                <img src="assets/img/log.png" alt="">
                             </div>
                         </div>
                         <div class="vlt-gap-40--sm"></div>
@@ -97,12 +97,9 @@
                     <div class="col-md-5">
 
                         <div class="vlt-animated-block" data-aos="fade" data-aos-delay="100">
-                            <p class="fz-3">Darkness they're, moved whales great or void great man one man from
-                                blessed so our good face was fruitful sixth male kind. Together saw fifth midst they
-                                spirit which gathered.</p>
+                            <p class="fz-3">“Хатанбаатар” ХХК нь Монгол улс дахь барилгын зураг төслийн салбартаа нэр хүндтэй, хамгийн олон инженер техникийн ажилтантай, 23 жилийн туршлагатай, салбартаа тэргүүн эгнээнд ажилладаг, мэргэшсэн байгууллага юм. </p>
                             <div class="vlt-gap-50"></div>
-                            <a class="vlt-btn vlt-btn--secondary vlt-btn--md" href="about-us.html" target="_self">Who
-                                we are</a>
+                            <a class="vlt-btn vlt-btn--secondary vlt-btn--md" href="about-us.html" target="_self">Дэлгэрэнгүй</a>
                         </div>
                     </div>
                 </div>
@@ -126,20 +123,18 @@
                         <div class="vlt-gap-80"></div>
 
                         <div class="vlt-animated-block" data-aos="fade" data-aos-delay="0">
-                            <h5>We help provide solutions to construction problems.</h5>
+                            <h5> </h5>
                         </div>
                         <div class="vlt-gap-30"></div>
 
                         <div class="vlt-animated-block" data-aos="fade" data-aos-delay="100">
-                            <p class="fz-3">Beginning fruit greater of darkness darkness moved blessed seas bring
-                                third cattle bearing lights the was life form tree.</p>
+                            <p class="fz-3">Манай байгууллага нь бүх төрлийн барилгын зураг төслийг боловсруулахаас гадна интерьер болон экстерьерийн зураг төсөл боловсруулах, захиалагчид зөвлөгөө өгөх чиглэлээр ажилладаг. </p>
                         </div>
                         <div class="vlt-gap-40"></div>
 
                         <div class="vlt-animated-block" data-aos="fade" data-aos-delay="200">
                             <div class="has-black-color">
-                                <a class="vlt-simple-link vlt-simple-link--md" href="#" target="_self">Read
-                                    more<i class="icon-arrow-top-right"></i></a>
+                                <a class="vlt-simple-link vlt-simple-link--md" href="#" target="_self">Дэлгэрэнгүй<i class="icon-arrow-top-right"></i></a>
                             </div>
                         </div>
                         <div class="vlt-gap-80--sm"></div>
@@ -210,7 +205,7 @@
                             <div class="vlt-counter-up vlt-counter-up--style-3" data-animation-speed="1000"
                                 data-delimiter="">
                                 <div class="vlt-counter-up__icon"><i class="icon-case"></i></div>
-                                <div class="vlt-counter-up__counter">138</div>
+                                <div class="vlt-counter-up__counter">200</div>
                                 <h5 class="vlt-counter-up__title">Projects
                                 </h5>
                             </div>
@@ -224,7 +219,7 @@
                             <div class="vlt-counter-up vlt-counter-up--style-3" data-animation-speed="1000"
                                 data-delimiter="">
                                 <div class="vlt-counter-up__icon"><i class="icon-star"></i></div>
-                                <div class="vlt-counter-up__counter">12</div>
+                                <div id="demo" class="vlt-counter-up__counter"></div>
                                 <h5 class="vlt-counter-up__title">Years
                                 </h5>
                             </div>
@@ -270,14 +265,15 @@
                 <div class="vlt-animated-block" data-aos="fade" data-aos-delay="0">
 
                     <div class="vlt-section-title vlt-section-title--style-1">
-                        <h2 class="vlt-section-title__title">The best Services</h2>
+                        <h2 class="vlt-section-title__title">ҮЙЛЧИЛГЭЭ</h2>
                     </div>
+                    <p class="pt-4" style="font-size:14px;" > Манай байгууллага нь бүх төрлийн барилгын зураг төслийг боловсруулахаас гадна интерьер болон экстерьерийн зураг төсөл боловсруулах, захиалагчид зөвлөгөө өгөх чиглэлээр ажилладаг. 2015 онд Зөвлөх үйлчилгээний чиглэлээр тусгай зөвшөөрөл авах зорилт тавин ажиллаж байна. 2009 оноос байгууллагадаа олон улсын чанарын удирдлагын тогтолцоог нэвтрүүлэн, чанарын удирдлагын тогтолцооны хүрээнд байгууллагын чанарын бодлого болон чанарын зорилгуудыг тодорхойлон түүнийхээ дагуу ажиллаж, 2012 оны 2 дугаар сард чанарын удирдлагын тогтолцооны ISO 9001:2008, MNS ISO 9001:2010 гэрчилгээ авсан.</p>
                 </div>
-                <div class="vlt-gap-90"></div>
+                <div class="vlt-gap-60"></div>
             </div>
             <div class="container-fluid p-0">
                 <div class="row no-gutters">
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
 
                         <div class="vlt-animated-block" data-aos="fade" data-aos-delay="100">
 
@@ -285,16 +281,15 @@
                                     href="service-single.html"></a>
                                 <div class="vlt-service__media"><i class="icon-drawing-tools"></i></div>
                                 <div class="vlt-service__content">
-                                    <h5 class="vlt-service__title">Architecture
+                                    <h5 class="vlt-service__title">ЗУРАГ ТӨСӨЛ
                                     </h5>
-                                    <p class="vlt-service__text">Tree so moveth good, moved. Stars after he whose,
-                                        bring open earth called.
+                                    <p class="vlt-service__text">Захиалагчийн хүсэлд нийцсэн хүн, байгаль орчинд ээлтэй архитектурын цогц шийдлийг мэргэжлийн өндөр түвшинд гаргана.
                                     </p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
 
                         <div class="vlt-animated-block" data-aos="fade" data-aos-delay="200">
 
@@ -302,16 +297,15 @@
                                     href="service-single.html"></a>
                                 <div class="vlt-service__media"><i class="icon-paint-bucket"></i></div>
                                 <div class="vlt-service__content">
-                                    <h5 class="vlt-service__title">Interior Design
+                                    <h5 class="vlt-service__title">ЗӨВЛӨХ ҮЙЛЧИЛГЭЭ
                                     </h5>
-                                    <p class="vlt-service__text">Branding and digital are forte. Given the state the
-                                        world think it’s time that we start.
+                                    <p class="vlt-service__text">Барилгын зураг төслийн салбарт танд тулгамдсан асуудлыг шийдвэрлэх гарцыг бид зөвлөнө.
                                     </p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
 
                         <div class="vlt-animated-block" data-aos="fade" data-aos-delay="300">
 
@@ -319,16 +313,15 @@
                                     href="service-single.html"></a>
                                 <div class="vlt-service__media"><i class="icon-helmet"></i></div>
                                 <div class="vlt-service__content">
-                                    <h5 class="vlt-service__title">Construction
+                                    <h5 class="vlt-service__title">ИНТЕРЬЕР ДИЗАЙН
                                     </h5>
-                                    <p class="vlt-service__text">One green be heaven meat grass god fruitful him
-                                        divided creature have a evening.
+                                    <p class="vlt-service__text">Захиалагчид тулгуурлан интерьер экстерьерийн зөв шийдлийг гаргана.
                                     </p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
 
                         <div class="vlt-animated-block" data-aos="fade" data-aos-delay="400">
 
@@ -336,44 +329,9 @@
                                     href="service-single.html"></a>
                                 <div class="vlt-service__media"><i class="icon-protactor"></i></div>
                                 <div class="vlt-service__content">
-                                    <h5 class="vlt-service__title">Schematic Deign
+                                    <h5 class="vlt-service__title">ХОТ ТӨЛӨВЛӨЛТ
                                     </h5>
-                                    <p class="vlt-service__text">There fourth all brought whose shall created. Him that
-                                        made itself winged male.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-
-                        <div class="vlt-animated-block" data-aos="fade" data-aos-delay="500">
-
-                            <div class="vlt-service vlt-service--style-5"><a class="vlt-service__link"
-                                    href="service-single.html"></a>
-                                <div class="vlt-service__media"><i class="icon-toolbox"></i></div>
-                                <div class="vlt-service__content">
-                                    <h5 class="vlt-service__title">Marketing
-                                    </h5>
-                                    <p class="vlt-service__text">Replenish place set days make life, had image tree
-                                        beast signs saying replenish.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-
-                        <div class="vlt-animated-block" data-aos="fade" data-aos-delay="600">
-
-                            <div class="vlt-service vlt-service--style-5"><a class="vlt-service__link"
-                                    href="service-single.html"></a>
-                                <div class="vlt-service__media"><i class="icon-drill"></i></div>
-                                <div class="vlt-service__content">
-                                    <h5 class="vlt-service__title">General Repair
-                                    </h5>
-                                    <p class="vlt-service__text">Gathered whose brought form dominion or male heaven
-                                        without in fowl open bring.
+                                    <p class="vlt-service__text">Архитектур орон зай, Хот төлөвлөлтийн орчин үеийн чиг хандлагад тулгуурлан үйлчилгээ үзүүлнэ.
                                     </p>
                                 </div>
                             </div>
@@ -406,16 +364,15 @@
                         <div class="vlt-animated-block" data-aos="fade" data-aos-delay="0">
 
                             <div class="vlt-section-title vlt-section-title--style-1">
-                                <h2 class="vlt-section-title__title">Our Team</h2>
-                                <p class="vlt-section-title__text">Darkness they're, moved whales great or void great
-                                    man one man from blessed so our good face.</p>
+                                <h2 class="vlt-section-title__title">ХАМТ ОЛОН</h2>
+                                <p class="vlt-section-title__text">Олон жилийн тогтвортой үйл ажиллагаа, туршлагатай боловсон хүчин, зураг төслийг иж бүрнээр нь зөвхөн өөрийн инженер техникийн ажилтануудад тулгуурлан боловсруулах хүчин чадалтай, сүүлийн үеийн хэвлэх машин болон тоног төхөөрөмжөөр тоноглогдсон.</p>
                             </div>
                         </div>
                         <div class="vlt-gap-40"></div>
 
                         <div class="vlt-animated-block" data-aos="fade" data-aos-delay="100">
                             <a class="vlt-btn vlt-btn--secondary vlt-btn--md" href="our-team.html"
-                                target="_self">Meet the team</a>
+                                target="_self">Дэлгэрэнгүй</a>
                         </div>
                         <div class="vlt-gap-60--sm"></div>
                     </div>
@@ -431,70 +388,27 @@
                                     data-free-mode="" data-slider-offset="" data-mousewheel="">
                                     <div class="swiper-container">
                                         <div class="swiper-wrapper">
+                                            {{-- @if(isset($team))
+                                            @foreach($team as $data)
                                             <div class="swiper-slide">
 
                                                 <div class="vlt-team-member vlt-team-member--style-1">
                                                     <div class="vlt-team-member__avatar"><img
-                                                            src="assets/img/team-member-01.png" alt=""
+                                                            src="{{Voyager::image($data->image)}}" alt=""
                                                             loading="lazy">
 
                                                     </div>
                                                     <div class="vlt-team-member__content">
-                                                        <h5 class="vlt-team-member__name">Jayson Scott
+                                                        <h5 class="vlt-team-member__name">{{ $data->name }}
                                                         </h5>
-                                                        <p class="vlt-team-member__function">President / CEO
+                                                        <p class="vlt-team-member__function">{{ $data->position }}
                                                         </p>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="swiper-slide">
+                                            @endforeach
+                                            @endif --}}
 
-                                                <div class="vlt-team-member vlt-team-member--style-1">
-                                                    <div class="vlt-team-member__avatar"><img
-                                                            src="assets/img/team-member-02.png" alt=""
-                                                            loading="lazy">
-
-                                                    </div>
-                                                    <div class="vlt-team-member__content">
-                                                        <h5 class="vlt-team-member__name">Amanda Cole
-                                                        </h5>
-                                                        <p class="vlt-team-member__function">Senior Designer
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="swiper-slide">
-
-                                                <div class="vlt-team-member vlt-team-member--style-1">
-                                                    <div class="vlt-team-member__avatar"><img
-                                                            src="assets/img/team-member-03.png" alt=""
-                                                            loading="lazy">
-
-                                                    </div>
-                                                    <div class="vlt-team-member__content">
-                                                        <h5 class="vlt-team-member__name">Andrew Holmes
-                                                        </h5>
-                                                        <p class="vlt-team-member__function">Senior Developer
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="swiper-slide">
-
-                                                <div class="vlt-team-member vlt-team-member--style-1">
-                                                    <div class="vlt-team-member__avatar"><img
-                                                            src="assets/img/team-member-04.png" alt=""
-                                                            loading="lazy">
-
-                                                    </div>
-                                                    <div class="vlt-team-member__content">
-                                                        <h5 class="vlt-team-member__name">Margaret Watson
-                                                        </h5>
-                                                        <p class="vlt-team-member__function">Project Manager
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -580,3 +494,9 @@
         </section>
     </div>
 </main>
+<script>
+    const d = new Date();
+    let year = d.getFullYear();
+    let exp = year-1993
+    document.getElementById("demo").innerHTML = exp;
+    </script>

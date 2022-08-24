@@ -6,10 +6,9 @@
                 <div class="vlt-navbar-inner">
                     <div class="vlt-navbar-inner--left">
                         <div class="d-flex align-items-center justify-content-center h-100">
-                            <a class="vlt-navbar-logo" href="index.html"><img class="black"
-                                    src="assets/img/root/logo-black.png" alt="" style="height: 25px;"
-                                    loading="lazy"><img class="white" src="assets/img/root/logo-white.png" alt=""
-                                    style="height: 25px;" loading="lazy"></a>
+                            <a class="vlt-navbar-logo" href="/">
+                                <img class="black" src="/storage/{{ setting('site.logo') }}" alt="" style="height: 75px;" loading="lazy">
+                                <img class="white" src="/storage/{{ setting('site.site-logo-white') }}" alt="" style="height: 75px;" loading="lazy"></a>
                         </div>
                     </div>
                     <div class="vlt-navbar-inner--right">
@@ -35,8 +34,8 @@
                 <div class="vlt-nav--fullscreen__header">
                     <div class="container">
                         <div class="d-flex align-items-center justify-content-between">
-                            <a class="vlt-navbar-logo" href="index.html"><img src="assets/img/root/logo-black.png"
-                                    alt="" style="height: 25px;" loading="lazy"></a><a
+                            <a class="vlt-navbar-logo" href="/"><img src="/storage/{{ setting('site.logo') }}"
+                                    alt="" style="height: 75px;" loading="lazy"></a><a
                                 class="vlt-menu-burger js-fullscreen-menu-toggle" href="#"><span
                                     class="line-one"></span><span class="line-two"></span></a>
                         </div>
@@ -101,9 +100,9 @@
                 <div class="vlt-navbar-inner">
                     <div class="vlt-navbar-inner--left">
                         <div class="d-flex align-items-center justify-content-center h-100">
-                            <a class="vlt-navbar-logo" href="index.html"><img class="black"
-                                    src="assets/img/root/logo-black.png" alt="" style="height: 25px;"
-                                    loading="lazy"><img class="white" src="assets/img/root/logo-white.png" alt=""
+                            <a class="vlt-navbar-logo" href="/"><img class="black"
+                                    src="/storage/{{ setting('site.logo') }}" alt="" style="height: 25px;"
+                                    loading="lazy"><img class="white" src="/storage/{{ setting('site.site-logo-white') }}" alt=""
                                     style="height: 25px;" loading="lazy"></a>
                         </div>
                     </div>
@@ -130,7 +129,7 @@
                 <div class="vlt-nav--fullscreen__header">
                     <div class="container">
                         <div class="d-flex align-items-center justify-content-between">
-                            <a class="vlt-navbar-logo" href="index.html"><img src="assets/img/root/logo-black.png"
+                            <a class="vlt-navbar-logo" href="/"><img src="/storage/{{ setting('site.logo') }}"
                                     alt="" style="height: 25px;" loading="lazy"></a><a
                                 class="vlt-menu-burger js-fullscreen-menu-toggle" href="#"><span
                                     class="line-one"></span><span class="line-two"></span></a>

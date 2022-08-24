@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Partner;
 use App\Work;
-use App\Team;
+use app\Team;
 use App\Models\Post;
 use TCG\Voyager\Models\Category;
 class MainController extends Controller
@@ -27,11 +27,17 @@ class MainController extends Controller
                     ->orderBy('created_at', 'desc')
                     ->limit(4)
                     ->get();
+        // $team = Team :: withTranslations()
+        // ->where([['featured', '=',1]])
+        // ->orderBy('order','asc')
+        // ->limit(4)
+        // ->get();
 
 
     return view('welcome')
     ->with('featurenews', $featurenews)
     ->with('work', $work)
+    // ->with('team', $team)
     ->with('partners', $partners);
 
 }
