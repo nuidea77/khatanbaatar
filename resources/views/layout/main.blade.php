@@ -5,28 +5,28 @@
 <head>
     <meta charset="utf-8">
     <title>Khatanbaatar</title>
-    <meta name="description" content="Creative &amp; Modern Agency HTML5 Template">
+    <meta name="description" content="Барилгын зураг төсөл">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <link rel="icon" type="image/svg" href="assets/img/root/favicon.svg">
+    <link rel="icon"  href="{{asset('assets/img/root/favicon.png')}}">
 
-    <link rel="stylesheet" href="assets/css/framework/bootstrap.min.css">
+    <link rel="stylesheet" href="{{asset('assets/css/framework/bootstrap.min.css')}}">
 
-    <link rel="stylesheet" href="assets/fonts/Swansea/style.css">
-    <link rel="stylesheet" href="assets/fonts/Skape/style.css">
-    <link rel="stylesheet" href="assets/fonts/Socicons/socicon.css">
+    <link rel="stylesheet" href="{{asset('assets/fonts/Swansea/style.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/fonts/Skape/style.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/fonts/Socicons/socicon.css')}}">
 
-    <link rel="stylesheet" href="assets/css/vlt-plugins.min.css">
+    <link rel="stylesheet" href="{{asset('assets/css/vlt-plugins.min.css')}}">
 
-    <link rel="stylesheet" href="assets/css/vlt-main.min.css">
+    <link rel="stylesheet" href="{{asset('assets/css/vlt-main.min.css')}}">
 
-    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="{{asset('assets/css/custom.css')}}">
 </head>
 
 <body>
 
-    <div class="vlt-site-preloader" data-animate-to="M0 0h202v66H0z"><svg xmlns="http://www.w3.org/2000/svg"
+    {{-- <div class="vlt-site-preloader" data-animate-to="M0 0h202v66H0z"><svg xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink" width="204" height="68">
             <defs>
                 <path id="a"
@@ -40,7 +40,7 @@
                 <path id="vlt-site-preloader-path" fill="currentColor" d="M0 0h0v66H0z" mask="url(#b)" />
             </g>
         </svg>
-    </div>
+    </div> --}}
     @include('layout.header')
     @yield('content')
     @include('layout.footer')
@@ -53,11 +53,10 @@
         </div>
     </div>
 
-    <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-    <script src="assets/vendors/jquery-3.5.1.min.js"></script>
-    <script src="assets/scripts/vlt-plugins.min.js"></script>
-    <script src="assets/scripts/vlt-helpers.js"></script>
-    <script src="assets/scripts/vlt-controllers.min.js"></script>
+    <script src="{{asset('assets/vendors/jquery-3.5.1.min.js')}}"></script>
+    <script src="{{asset('assets/scripts/vlt-plugins.min.js')}}"></script>
+    <script src="{{asset('assets/scripts/vlt-helpers.js')}}"></script>
+    <script src="{{asset('assets/scripts/vlt-controllers.min.js')}}"></script>
 </body>
 
 </html>

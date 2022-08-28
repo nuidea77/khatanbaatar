@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Session;
 use TCG\Voyager\Facades\Voyager;
 use App\Http\Controllers\MainController;
-use App\Http\Controllers\NewsController;
+use App\Http\Controllers\WorkController;
 use App\Http\Controllers\PagesController;
 /*
 |--------------------------------------------------------------------------
@@ -25,10 +25,9 @@ Route::get('setlocale/{locale}',function($lang){
 Route::group(['middleware'=>'language'],function ()
 {
 Route::get('/', [MainController::class, 'index']);
-Route::get('/news/{id}', [NewsController::class, 'view']);
-Route::get('/blog', [NewsController::class, 'index']);
-Route::get('/news/category/{id}', [NewsController::class, 'category']);
-Route::get('/company/{id}', [CompanyController::class, 'view']);
+Route::get('/work/{id}', [WorkController::class, 'view']);
+Route::get('/works', [WorkController::class, 'index']);
+// Route::get('/news/category/{id}', [NewsController::class, 'category']);
 Route::get('/contact', [PagesController::class, 'contact']);
 Route::get('/about', [PagesController::class, 'about']);
 Route::group(['prefix' => 'admin'], function () {
