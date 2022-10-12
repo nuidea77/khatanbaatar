@@ -6,6 +6,7 @@ use TCG\Voyager\Facades\Voyager;
 use App\Http\Controllers\MainController;
 use App\Http\Controllers\WorkController;
 use App\Http\Controllers\PagesController;
+use App\Http\Controllers\ContactController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -28,7 +29,8 @@ Route::get('/', [MainController::class, 'index']);
 Route::get('/work/{id}', [WorkController::class, 'view']);
 Route::get('/works', [WorkController::class, 'index']);
 // Route::get('/news/category/{id}', [NewsController::class, 'category']);
-Route::get('/contact', [PagesController::class, 'contact']);
+Route::get('/contact', [ContactController::class, 'index']);
+Route::post('/contact', [ContactController::class, 'store'])->name('contact.us.store');
 Route::get('/about', [PagesController::class, 'about']);
 Route::group(['prefix' => 'admin'], function () {
         Voyager::routes();

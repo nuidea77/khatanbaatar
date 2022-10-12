@@ -23,52 +23,73 @@
                     <div class="col-lg-12">
 
                         <div class="vlt-animated-block" data-aos="fade" data-aos-delay="0">
-                            <h2>Get in Touch</h2>
+                            <h2>@lang("texts.formt")</h2>
                         </div>
                         <div class="vlt-gap-60"></div>
                     </div>
                     <div class="col-lg-8">
 
+
                         <div class="vlt-animated-block" data-aos="fade" data-aos-delay="100">
 
-                            <form class="vlt-contact-form vlt-contact-form--style-2" novalidate="novalidate">
+                            <form method="POST" action="{{ route('contact.us.store') }}" id="contactUSForm" class="vlt-contact-form--style-2" >
+                                {{ csrf_field() }}
                                 <div class="vlt-form-row two-col">
                                     <div class="vlt-form-group">
                                         <input class="vlt-form-control" type="text" name="name"
-                                            required="required" placeholder=" ">
-                                        <label class="vlt-form-label">Your name*</label>
+                                            required="required" placeholder=" " value="{{ old('name') }}">
+                                        <label class="vlt-form-label">@lang("texts.name")*</label>
+                                        @if ($errors->has('name'))
+                                            <span class="text-danger">{{ $errors->first('name') }}</span>
+                                        @endif
                                     </div>
                                     <div class="vlt-form-group">
                                         <input class="vlt-form-control" type="email" name="email"
-                                            required="required" placeholder=" ">
-                                        <label class="vlt-form-label">Email address*</label>
+                                            required="required" placeholder=" " value="{{ old('email') }}">
+                                        <label class="vlt-form-label">@lang("texts.email")*</label>
+                                        @if ($errors->has('email'))
+                                        <span class="text-danger">{{ $errors->first('email') }}</span>
+                                    @endif
                                     </div>
                                 </div>
                                 <div class="vlt-form-row two-col">
                                     <div class="vlt-form-group">
-                                        <input class="vlt-form-control" type="tel" name="phone" placeholder=" ">
-                                        <label class="vlt-form-label">Phone number</label>
+                                        <input class="vlt-form-control" type="tel" name="phone" placeholder=" " value="{{ old('phone') }}">
+                                        <label class="vlt-form-label">@lang("texts.phone")*</label>
+                                        @if ($errors->has('phone'))
+                                            <span class="text-danger">{{ $errors->first('phone') }}</span>
+                                        @endif
                                     </div>
                                     <div class="vlt-form-group">
-                                        <input class="vlt-form-control" type="text" name="company" placeholder=" ">
-                                        <label class="vlt-form-label">Company</label>
+                                        <input class="vlt-form-control" type="text" name="subject" placeholder=" " value="{{ old('subject') }}">
+                                        <label class="vlt-form-label">@lang("texts.subject")*</label>
+                                        @if ($errors->has('subject'))
+                                            <span class="text-danger">{{ $errors->first('subject') }}</span>
+                                        @endif
                                     </div>
                                 </div>
+
                                 <div class="vlt-form-group">
-                                    <input class="vlt-form-control" type="text" name="title" required="required"
-                                        placeholder=" ">
-                                    <label class="vlt-form-label">Title*</label>
+                                    <textarea class="vlt-form-control" name="message" rows="5" placeholder=" ">{{ old('message') }}</textarea>
+                                    <label class="vlt-form-label">@lang("texts.message")*</label>
+                                    @if ($errors->has('message'))
+                                            <span class="text-danger">{{ $errors->first('message') }}</span>
+                                        @endif
                                 </div>
-                                <div class="vlt-form-group">
-                                    <textarea class="vlt-form-control" name="message" rows="5" placeholder=" "></textarea>
-                                    <label class="vlt-form-label">Message*</label>
+                                @if(Session::has('success'))
+
+                                <div class="alert alert-success message success">
+
+                                    {{Session::get('success')}}
+
                                 </div>
-                                <div class="message success">Your message is successfully sent...</div>
-                                <div class="message danger">Sorry something went wrong!</div>
+
+                            @endif
+
                                 <div class="vlt-gap-40"></div>
 
-                                <button class="vlt-btn vlt-btn--secondary vlt-btn--lg">Submit
-                                </button>
+                                <input type="submit" value="@lang("texts.send")" class="vlt-btn vlt-btn--secondary vlt-btn--lg">
+
                             </form>
                         </div>
                         <div class="vlt-gap-60--md"></div>
@@ -79,7 +100,7 @@
                                 <div class="col-lg-12 col-md-6">
 
                                     <div class="vlt-animated-block" data-aos="fade" data-aos-delay="200">
-                                        <h5>General Info</h5>
+                                        <h5>@lang("texts.cinfo")</h5>
                                         <div class="vlt-gap-20"></div>
                                         <p class="lh-2">@lang("texts.location")
                                             <a  href="mailto:info@khatanbaatar.com" >info@khatanbaatar.com</a><br>

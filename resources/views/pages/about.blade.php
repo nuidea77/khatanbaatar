@@ -33,13 +33,16 @@
                     <div class="vlt-gap-40--sm"></div>
                     <div class="vlt-gap-60"></div>
                     <div class="vlt-gap-60"></div>
-                    <p class="fz-3" >@lang('texts.about-us-text3')</p>
+
                 </div>
                 <div class="col-md-5">
 
                     <div class="vlt-animated-block" data-aos="fade" data-aos-delay="100">
-                        <p class="fz-3">@lang('texts.about-us-text1') </p>
-
+                        <p class="fz-3">@lang('texts.about1') </p>
+                        <p class="fz-3" >@lang('texts.about2')</p>
+                        <p class="fz-3">@lang('texts.about3') </p>
+                        <p class="fz-3" >@lang('texts.about4')</p>
+                        <p class="fz-3">@lang('texts.about5') </p>
                         <div class="vlt-gap-50"></div>
                     </div>
 
@@ -49,12 +52,13 @@
         </div>
 
     </section>
-
+    <div class="vlt-gap-50"></div>
     <section class="jarallax has-gray-color" >
+        <div class="vlt-gap-50"></div>
         <div class="container">
             <div class="row">
 
-                <div class="col-md-5 offset-md-1">
+                <div class="col-md-4">
 
                     <div class="vlt-animated-block aos-init aos-animate" data-aos="fade" data-aos-delay="0">
                         <div class="has-light-gray-color" style="opacity: .16;">
@@ -62,15 +66,15 @@
                             <div class="vlt-stroke-text vlt-stroke-text--lg">01
                             </div>
                         </div>
-                        <h5 class="has-white-color negative-top-offset-lg">About the Skape</h5>
+                        <h5 class="has-white-color negative-top-offset-lg">Эрхэм зорилго</h5>
                         <div class="vlt-gap-40"></div>
-                        <p style="max-width: 90%;">Made wherein kind. Fruit dominion for fowl and together bring man
-                            created abundantly were likeness be days and winged darkness creepeth divide firmament subdue
-                            yielding itself seed fruit he Blessed.</p>
+                        <p style="max-width: 90%;">Өрсөлдөхүйц давуу талыг хайн бий болгож захиалагч бүртэй удаан хугацааны амжилттай харилцааг эрхэмлэн хамтран ажиллана.
+
+                            </p>
                     </div>
                     <div class="vlt-gap-60--sm"></div>
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-4">
 
                     <div class="vlt-animated-block aos-init aos-animate" data-aos="fade" data-aos-delay="200">
                         <div class="has-light-gray-color" style="opacity: .16;">
@@ -78,10 +82,27 @@
                             <div class="vlt-stroke-text vlt-stroke-text--lg">02
                             </div>
                         </div>
-                        <h5 class="has-white-color negative-top-offset-lg">Our Mission</h5>
+                        <h5 class="has-white-color negative-top-offset-lg">Чанарын бодлого</h5>
                         <div class="vlt-gap-40"></div>
-                        <p style="max-width: 90%;">The in signs creeping without divide good female or he him own form
-                            called over, whose them. Greater greater of green our appear itself have upon had heaven.</p>
+                        <p style="max-width: 90%;">Захиалагчийн хүсэл, шаардлагыг хангаж, сэтгэл ханамжийг дээшлүүлэхийн тулд дэвшилтэд технологи болон холбогдох хууль, тогтоомж, стандарт, орм дүрмийг мөрдөн компанийн үйл ажиллагааг байнга сайжруулах замаар зураг төслийн ажлыг чанартай, хугацаанд нь гүйцэтгэнэ.
+                            </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+
+                    <div class="vlt-animated-block aos-init aos-animate" data-aos="fade" data-aos-delay="200">
+                        <div class="has-light-gray-color" style="opacity: .16;">
+
+                            <div class="vlt-stroke-text vlt-stroke-text--lg">03
+                            </div>
+                        </div>
+                        <h5 class="has-white-color negative-top-offset-lg">Чанарын бодлого</h5>
+                        <div class="vlt-gap-40"></div>
+                        <p style="max-width: 90%;">- Зураг төсөл эхлэхээс барилга ашиглалтанд орох хүртэлх хугацаанд захиалагчтай нэг багийн хамтын ажиллагааг дэмжинэ.
+                            <br>- Зураг төсөл боловсруулах үйл явцаар дамжуулан барилгын салбарт дэлхийн шинэ технологи нэвтрүүлж, барилгын бодит өртгийг бууруулахад хувь нэмрээ оруулж эдийн засаг, нийгмийн хариуцлагатай ажиллана.
+                            <br> - Зураг төсөл боловсруулах үйл ажиллагааны үе шат бүрт- захиалагч” гэдэг бүх
+                                  нийтийн чанарын тогтолцоог бүрдүүлнэ.
+                            </p>
                     </div>
                 </div>
             </div>

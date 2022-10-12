@@ -8,9 +8,7 @@ use Illuminate\Http\Request;
 
 class PagesController extends Controller
 {
-    public function contact(){
-        return view('pages.contact');
-    }
+
     public function about(){
         $partner = Partner::orderBy('order', 'asc')->limit(8)
         ->get();

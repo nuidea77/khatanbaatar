@@ -132,7 +132,7 @@
 
                         <div class="vlt-animated-block" data-aos="fade" data-aos-delay="200">
                             <div class="has-black-color">
-                                <a class="vlt-simple-link vlt-simple-link--md" href="#"
+                                <a class="vlt-simple-link vlt-simple-link--md" href="/about"
                                     target="_self">@lang('texts.more')<i class="icon-arrow-top-right"></i></a>
                             </div>
                         </div>
@@ -162,7 +162,7 @@
                             <div class="vlt-counter-up vlt-counter-up--style-3" data-animation-speed="1000"
                                 data-delimiter="">
                                 <div class="vlt-counter-up__icon"><i class="icon-case"></i></div>
-                                <div class="vlt-counter-up__counter">500</div>
+                                <div class="vlt-counter-up__counter">650</div>
                                 <h5 class="vlt-counter-up__title">@lang('texts.projects')
                                 </h5>
                             </div>
@@ -174,7 +174,7 @@
                             <div class="vlt-counter-up vlt-counter-up--style-3" data-animation-speed="1000"
                                 data-delimiter="">
                                 <div class="vlt-counter-up__icon"><i class="icon-heart-2"></i></div>
-                                <div class="vlt-counter-up__counter">550</div>
+                                <div class="vlt-counter-up__counter">600</div>
                                 <h5 class="vlt-counter-up__title">@lang('texts.implemented')
                                 </h5>
                             </div>
